@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="js/scripts.js" charset="utf-8"></script>
+  <title>Stress Test!</title>
+</head>
+<body>
+  <div class="container">
+    <form>
+      <h1>You may be feeling stressed..</h1>
+      <div class="form-group">
+        <p>1: Which of the following warning signs of stress do you experience? (Check all that apply.)</p>
+        <input type="checkbox" name="stressed" value="1">Loss of sleep<br>
+        <input type="checkbox" name="stressed" value="1">Irritability<br>
+        <input type="checkbox" name="stressed" value="1">Throwing things wildly<br>
+        <input type="checkbox" name="stressed" value="1">Feeling overwhelmed<br>
+        <input type="checkbox" name="stressed" value="1">Feeling of impending doom<br>
+        <input type="checkbox" name="stressed" value="1">Binge eating chocolate ice cream<br>
+        <input type="checkbox" name="stressed" value="1">Watching documentaries on Netflix that you don't actually care about<br>
+      </div>
+
+      <div class="form-group">
+        <p>2: Which health symptoms do you exhibit? (Check all that apply.)</p>
+        <input type="checkbox" name="stressed" value="1">High blood pressure<br>
+        <input type="checkbox" name="stressed" value="1">High cholesterol<br>
+        <input type="checkbox" name="stressed" value="1">Type 2 Diabetes<br>
+        <input type="checkbox" name="stressed" value="1">Drug addiction<br>
+        <input type="checkbox" name="stressed" value="1">Alcoholism<br>
+        <input type="checkbox" name="stressed" value="1">Anxiety<br>
+        <input type="checkbox" name="stressed" value="1">Depression<br>
+      </div>
+
+      <div class="form-group">
+        <p>3: How do you cope? (Check all that apply.)</p>
+        <input type="checkbox" name="stressed" value="-1">Cats and Dogs for life<br>
+        <input type="checkbox" name="stressed" value="1">Drugs and Alcohol<br>
+        <input type="checkbox" name="stressed" value="-1">Exercise<br>
+        <input type="checkbox" name="stressed" value="-1">Listen to Celine Dion (or Enya)<br>
+        <input type="checkbox" name="stressed" value="1">Meditate<br>
+        <input type="checkbox" name="stressed" value="-1">Social interaction<br>
+        <input type="checkbox" name="stressed" value="1">I don't<br>
+      </div>
+      <button type="submit" name="button">Let's see how you're doing.</button>
+    </form>
+
+    <div class="results">
+      <p id="resultText"></p>
+    </div>
+  </div>
+</body>
+</html>
